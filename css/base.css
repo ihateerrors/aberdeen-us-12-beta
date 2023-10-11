@@ -397,19 +397,6 @@ button {
   width: 100%;
 }
 
-@media screen and (min-width: 481px) {
-  .usa-button,
-  .usa-button-primary,
-  .usa-button-primary:visited,
-  .usa-button:visited,
-  [type="button"],
-  [type="image"],
-  [type="reset"],
-  [type="submit"],
-  button {
-    width: auto;
-  }
-}
 input,
 select,
 textarea {
@@ -534,14 +521,6 @@ form [type="submit"] {
   display: block;
   margin-bottom: 1.5em;
   margin-top: 2.5rem;
-}
-
-@media screen and (min-width: 600px) {
-  form [type="submit"] {
-    padding-left: 2.7em;
-    padding-right: 2.7em;
-    width: auto;
-  }
 }
 
 label {
@@ -758,20 +737,6 @@ header#mainheader h1 {
   line-height: 1;
 }
 
-@media screen and (max-width: 991px) {
-  img.stlogo {
-    display: block;
-    margin-bottom: 5px;
-  }
-
-  span.timespan {
-    padding-left: 10px;
-  }
-
-  .topbar #google_translate_element {
-    float: none;
-  }
-}
 
 /* ###### Legacy styles ####### */
 
@@ -1343,14 +1308,14 @@ blockquote:not(:first-of-type) {
   margin-top: 0.5em;
 }
 blockquote p {
-  color: #555;
+  color:var(--railway-gray);
   font-size: inherit;
   line-height: 1.4;
 }
 blockquote footer {
   margin-top: 0.5em;
   padding: 0;
-  color: #777;
+  color: var(--highway-gray);
   font-size: inherit;
   text-align: left;
   font-style: italic;
@@ -1425,6 +1390,27 @@ figure img {
 
 
 
+@media screen and (min-width: 600px) {
+  form [type="submit"] {
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .usa-button,
+  .usa-button-primary,
+  .usa-button-primary:visited,
+  .usa-button:visited,
+  [type="button"],
+  [type="image"],
+  [type="reset"],
+  [type="submit"],
+  button {
+    width: auto;
+  }
+}
 
 @media (max-width: 768px) {
   .footer-form {
@@ -1439,5 +1425,19 @@ figure img {
     top: 4.9rem;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  img.stlogo {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  span.timespan {
+    padding-left: 10px;
+  }
+
+  .topbar #google_translate_element {
+    float: none;
   }
 }
