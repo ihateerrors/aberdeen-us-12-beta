@@ -1,5 +1,5 @@
 :root {
-  --wave-blue: #2b376e;
+  --wave-blue: #343539;
   --wave-teal: #2a7997;
   --dark-teal: #007297;
   --wave-green: #008281;
@@ -547,10 +547,10 @@ h6 {
 }
 header#mainheader {
   width: 100%;
-  background-color: #2b376e;
+  background-color: #343539;
 }
 #footer {
-  background-color: #2b376e;
+  background-color: #343539;
   clear: both;
   margin-top: 20px;
   color: white;
@@ -857,7 +857,7 @@ h3 {
 }
 
 .entry-header {
-  background-color: #2b376e;
+  background-color: #343539;
   color: white;
   width: 100%;
   padding: 25px 0px 25px 0px;
@@ -1068,7 +1068,7 @@ h5 {
 
 .bboxHead {
   color: #ffffff;
-  background-color: #2b376e;
+  background-color: #343539;
   padding: 10px 0px 10px 10px;
   margin-left: 0;
   margin-right: 0;
@@ -1081,7 +1081,7 @@ h5 {
 }
 
 .bbox {
-  color: #2b376e;
+  color: #343539;
 }
 
 .buttonLinkbox {
@@ -1089,7 +1089,7 @@ h5 {
 }
 
 .borderbox2 {
-  background-color: #2b376e;
+  background-color: #343539;
   border: 0.5px solid #000000;
 }
 
