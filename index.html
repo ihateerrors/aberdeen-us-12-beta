@@ -46,7 +46,7 @@
       href="css/base-img/favicon-16x16.png"
     /> -->
     <link rel="mask-icon" href="css/base-img/safari-pinned-tab.svg" color="#5bbad5" />
-    <link rel="shortcut icon" href="css/base-img/favicon.ico" />
+    <!-- <link rel="shortcut icon" href="css/base-img/favicon.ico" /> -->
     <meta name="msapplication-config" content="css/base-img/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
 
@@ -109,67 +109,67 @@
       href="css/override.css"
       media="all"
     />
+
+    <style>
+      .hero-image {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+    background-image: url('/img/Fig1_Train blocking-01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust color as needed */
+}
+    </style>
   </head>
 
   <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0">
-    <header id="mainheader">
+    <!-- <header id="mainheader">
       <div class="topbar">
         <div class="container-xxl px-lg-5">
           <div class="row">
             <div class="col-md-7">
-              <!-- <img
-                loading="lazy"
-                class="st-logo"
-                src="css/base-img/digital-blue-ST-logo_blu.png"
-                alt="Sound Transit"
-              /> -->
-              <span class="timespan"> </span>
+                     <span class="timespan"> </span>
             </div>
             <div class="col-md-5">
               <div id="google_translate_element"></div>
             </div>
           </div>
-          <!-- <div class="row" style="margin-top: -0.5%">
-            <div class="col">
-              <div class="col">
-                <a class="lang-link" href="spanish.html"> Español </a>
-                |
-                <a class="lang-link" href="somali.html">Soomaali</a>
-                |
-                <a class="lang-link" href="simplified-chinese.html">简化字</a>
-                |
-                <a class="lang-link" href="traditional-chinese.html"
-                  >繁體中文</a
-                >
-                |
-                <a class="lang-link" href="vietnamese.html"> Tiếng Việt </a>
-                |
-                <a class="lang-link" href="korean.html">한국어</a>
-                |
-                <a class="lang-link" href="tagalog.html">Tagalog</a>
-                |
-                <a class="lang-link" href="amharic.html"> አማርኛ </a>
-              </div>
-            </div>
-          </div> -->
+      
         </div>
       </div>
-      <div class="container-xxl px-xxl-5">
+      <div class="container-xxl">
         <div class="row">
           <div class="col-12 hero py-0">
             <div class="d-flex align-items-center">
-              <!-- <img
+              <img
                 loading="lazy"
                 src="css/base-img/ooh-header-sounder.png"
                 class="d-none d-sm-block"
                 alt="Logo"
-              /> -->
-              <h1>Aberdeen US 12 Highway-Rail Separation Project</h1>
+              />
+            <p>Aberdeen US 12 Highway-Rail Separation Project</p>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
 
     <div class="topdiv sticky-top">
       <progress id="progressbar" value="0" max="100"></progress>
@@ -207,9 +207,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#benefits">Benefits and Impacts</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#next-steps">Next Steps</a>
-              </li>
+              </li> -->
             </ul>
           </nav>
         </div>
@@ -217,7 +217,7 @@
     </div>
 
     <div class="scroll-margin" id="welcome">
-      <div class="entry-header nm" id="sec-title">
+      <!-- <div class="entry-header nm" id="sec-title">
         <div class="container-xxl px-lg-5">
           <div class="row">
             <div class="px-4 col">
@@ -227,17 +227,16 @@
             </div>
           </div>
         </div>
-      </div>
-
+      </div> -->
+      <div class="hero-image">
+        <div class="overlay"></div>
+        <h1>Welcome to the City of Aberdeen’s US 12 Highway-Rail Separation project website!</h1>
+    </div>
       <div class="container-xxl px-lg-5">
         <div class="row">
-          <div class="px-4 col-lg-8">
-            <h3>Welcome to the City of Aberdeen’s US 12 Highway-Rail Separation project website!</h3>
-            <p>The City of Aberdeen and WSDOT have been working to solve congestion and access issues along US 12 (Wishkah Street) in East Aberdeen. The City is excited to update you on this crucial project aimed at improving this route. This project is focused on making this route safer and more efficient for the Aberdeen community, visitors, and businesses by making driving easier, improving traffic, and helping emergency services.</p>             
-               
-            <p>The City invites you to explore this website to learn more about what to expect. Thank you for your interest in making East Aberdeen a better place. 
-            </p>
-            <figure class="">
+          <div class="px-4 col-lg-11">
+            <!-- <h3>Welcome to the City of Aberdeen’s US 12 Highway-Rail Separation project website!</h3> -->
+            <!-- <figure class="">
               <a
                 target="_blank"
                 href="/img/Fig1_Train blocking-01.jpg"
@@ -250,7 +249,12 @@
               </a>
               <span class="visually-hidden"> </span>
               <figcaption class="s2">Figure 1: Train blocking all entrances to commercial area south of US 12 in East Aberdeen.</figcaption>
-            </figure>
+            </figure> -->
+            <p class="mt-5">The City of Aberdeen and WSDOT have been working to solve congestion and access issues along US 12 (Wishkah Street) in East Aberdeen. The City is excited to update you on this crucial project aimed at improving this route. This project is focused on making this route safer and more efficient for the Aberdeen community, visitors, and businesses by making driving easier, improving traffic, and helping emergency services.</p>             
+               
+            <p>The City invites you to explore this website to learn more about what to expect. Thank you for your interest in making East Aberdeen a better place. 
+            </p>
+ 
      
           </div>
         </div>
@@ -311,9 +315,6 @@
             </figure>
            <p><p>
             
-     
-
-
           </div>
          </div>
        </div>
@@ -347,10 +348,10 @@
             <hr class="thr" />
           </div>
           <!-- Accordion 2 -->
-          <button class="accordion thr">Project Milestones</button>
+          <button class="accordion thr">Timeline</button>
           <div class="panel">
             <div class="container">
-          <img src="/img/website_project_milestones_chart.JPG" class="img-fluid">
+          <img src="/img/website_project_milestones_chart.JPG" alt="..." class="img-fluid">
             <hr class="thr" />
           </div>
         </div>
@@ -507,77 +508,104 @@
                     <div class="row">
                       <div class="px-4 col">
                         <h2>Project benefits and impacts</h2>
+                       
                       </div>
                     </div>
                   </div>
                 </div>
             <div class="container">
               <div class="row">
+                <div class="col-md-10">
+                  <p class="fw-500">Once constructed, the US 12 Highway-Rail Separation project will bring much needed improvements to our community, including:</p>
 
-            <div class="accordion-list">
-              <!-- Accordion-1 -->
-              <button
-                class="accordion thr"
-                aria-expanded="false"
-                aria-controls="accordion"
-              >
-                Heading
-              </button>
-              <div class="panel">
-                <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates veniam ex. Expedita ipsam laudantium vel accusantium, ex hic animi.
-                </p>
-                <hr class="thr" />
-              </div>
-              <!-- --- -->
-              <!-- Accordion-2 -->
-              <button
-                class="accordion thr"
-                aria-expanded="false"
-                aria-controls="accordion"
-              >
-                Heading
-              </button>
-              <div class="panel">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates veniam ex. Expedita ipsam laudantium vel accusantium, ex hic animi.
-                </p>
-                <hr class="thr" />
-              </div>
-              <!-- --- -->
-              <!-- Accordion-3 -->
-              <button
-                class="accordion thr"
-                aria-expanded="false"
-                aria-controls="accordion"
-              >
-             Heading
-              </button>
-              <div class="panel">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates veniam ex. Expedita ipsam laudantium vel accusantium, ex hic animi.
-                </p>
-                <hr class="thr" />
-              </div>
-              <!-- --- -->
-              <!-- Accordion-4 -->
-              <button
-                class="accordion thr"
-                aria-expanded="false"
-                aria-controls="accordion"
-              >
-                Heading
-              </button>
-              <div class="panel">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates veniam ex. Expedita ipsam laudantium vel accusantium, ex hic animi.
-                </p>
-    
-                <hr class="thr" />
-              </div>
-             
-            </div>
-            <!-- END Accordion --- -->
+                  <ul>
+                      <li> Uninterrupted access for vehicles, bicycles, and pedestrians to commercial area south of US 12 and the railroad. </li>
+  
+                      <li> 24/7 access for emergency services. </li>
+                      <li> Reduced delays on US 12 due to vehicles blocking the travel lanes while waiting for trains that are blocking existing at-grade driveways into the commercial area. </li>
+                      <li> Improved traffic flow on US 12 due to diverting vehicles turning into and out of the commercial area to new grade-separated ramps.  </li>
+                      <li> Improved safety for left turning vehicles into the commercial area by replacing the Chehalis Street signalized intersection with a roundabout at Newell Street (roundabouts reduce the number and severity of vehicle conflict points at the intersection). </li>
+                     
+                  </ul>
+  
+                  <p class="fw-500">Like many urban projects, the US 12 Highway-Rail Separation project will encounter unavoidable impacts to the surrounding area. Impacts can be minimized through creative design decisions. Following are some of the unavoidable impacts, and the City’s approach to minimizing these impacts: </p>
+                </div>
+      
+<p> </p>
+                <div class="container">
+                  <div class="accordion-list">
+                    <!-- Accordion-1 -->
+                    <button
+                      class="accordion thr"
+                      aria-expanded="false"
+                      aria-controls="accordion"
+                    >
+                     Project Costs
+                    </button>
+                    <div class="panel">
+                      <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates veniam ex. Expedita ipsam laudantium vel accusantium, ex hic animi.
+                      </p>
+                      <hr class="thr" />
+                    </div>
+                    <!-- --- -->
+                    <!-- Accordion-2 -->
+                    <button
+                      class="accordion thr"
+                      aria-expanded="false"
+                      aria-controls="accordion"
+                    >
+                     Frequently Asked Questions
+                    </button>
+                    <div class="panel">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates veniam ex. Expedita ipsam laudantium vel accusantium, ex hic animi.
+                      </p>
+                      <hr class="thr" />
+                    </div>
+                    <!-- --- -->
+                    <!-- Accordion-3 -->
+                    <button
+                      class="accordion thr"
+                      aria-expanded="false"
+                      aria-controls="accordion"
+                    >
+                  Next Steps
+                    </button>
+                    <div class="panel">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates veniam ex. Expedita ipsam laudantium vel accusantium, ex hic animi.
+                      </p>
+                      <hr class="thr" />
+                    </div>
+
+
+                    <p></p>
+                    <p></p>
+                    <!-- --- -->
+                    <!-- Accordion-4 -->
+                    <!-- <button
+                      class="accordion thr"
+                      aria-expanded="false"
+                      aria-controls="accordion"
+                    >
+                      Heading
+                    </button>
+                    <div class="panel">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates veniam ex. Expedita ipsam laudantium vel accusantium, ex hic animi.
+                      </p>
+          
+                      <hr class="thr" />
+                    </div>
+                   
+                  </div> -->
+                  <!-- END Accordion --- -->
+
+
+
+                </div>
+
  
       </div>
 
